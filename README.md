@@ -29,15 +29,15 @@ Run the GUI Application
 
 (6) After the analysis completes, check the output files:
 
-Results file containing detected CNVs
+- Results file containing detected CNVs
 
-Evaluation metrics file (Precision, Sensitivity, F1-score)
+- Evaluation metrics file (Precision, Sensitivity, F1-score)
 
 (7) Visualize the results directly inside the GUI:
 
-Metrics such as Precision, Sensitivity, and F1-score
+- Metrics such as Precision, Sensitivity, and F1-score
 
-Graphical display of the detected CNVs
+- Graphical display of the detected CNVs
 
 Quick Example
 
