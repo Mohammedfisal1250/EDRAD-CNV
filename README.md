@@ -8,19 +8,19 @@ Run the GUI Application
 
 (2) Configure important parameters inside the GUI after launching:
 
-Upload input data (.bam files)
+- Upload input data (.bam files)
 
-Set parameters: k (number of neighbors), bandwidth, bin size, reference genome path, etc.
+- Set parameters: k (number of neighbors), bandwidth, bin size, reference genome path, etc.
 
-Choose segmentation method (Python or R-based)
+- Choose segmentation method (Python or R-based)
 
-Click the "Run" button to start the CNV detection analysis!
+- Click the "Run" button to start the CNV detection analysis!
 
 (3) Visualize the results directly inside the GUI:
 
-Metrics like Precision, Sensitivity, and F1-score
+- Metrics like Precision, Sensitivity, and F1-score
 
-Graphical display of detected CNVs
+- Graphical display of detected CNVs
 
 Quick Example
 
@@ -71,10 +71,12 @@ R 3.4.4 (for CBS segmentation if selected)
 
 DNAcopy
 
-Real Datasets
-You can test EDRAD-CNV using public datasets like:
+# Real Datasets
 
-1000 Genomes Project
+The real datasets can be obtained in the following 2 ways.
+
+- clink this link：https://pan.baidu.com/s/1Ja4XH2wZupeAcwc9qhZn8A extraction code：29to
+- [1000 Genomes Project](https://www.internationalgenome.org/)
 
 Your own BAM files prepared for analysis
 
