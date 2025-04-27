@@ -33,44 +33,36 @@ python main_EDRAD.py
 ```
 Then interact with the GUI window to upload your files and run detection easily!
 
-Features
-Easy upload of BAM files through file dialog
+# Features
+- Easy upload of BAM files through file dialog
 
-User-configurable parameters for flexible analysis
+- User-configurable parameters for flexible analysis
 
-Supports both Python and R-based segmentation
+- Supports both Python and R-based segmentation
 
-Visualizes results with scores and CNV plots
+- Visualizes results with scores and CNV plots
 
-Beginner-friendly, no command-line skills needed
+- Beginner-friendly, no command-line skills needed
 
-GUI Screenshot
+# GUI Screenshot
+  - See the Screenshot.jpg
 
-Required Dependencies
-Python 3.8 (recommended)
+# Required Dependencies
 
-numpy
-
-pandas
-
-scipy
-
-biopython
-
-pysam
-
-pyod
-
-sklearn
-
-rpy2
-
-tkinter (comes preinstalled with Python)
-
-R 3.4.4 (for CBS segmentation if selected)
-
-DNAcopy
-
+1. Python 3.8            
+   - biopython     
+   - combo         
+   - numpy         
+   - pandas        
+   - pysam        
+   - pyod         
+   - rpy2          
+   - scikit-learn  
+   - scipy         
+   - tkinter (comes preinstalled with Python)
+2. R 3.4.4
+   - DNAcopy
+     
 # Real Datasets
 
 The real datasets can be obtained in the following 2 ways.
@@ -80,6 +72,6 @@ The real datasets can be obtained in the following 2 ways.
 
 Your own BAM files prepared for analysis
 
-Citing EDRAD-CNV
-If you use EDRAD-CNV in your research or publication, please cite this project appropriately. (Add your future paper info here if you publish.)
+# Citing EDRAD-CNV
+
 
