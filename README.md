@@ -4,23 +4,40 @@ EDRAD-CNV: A new approach for Copy Number Variation (CNV) detection from next-ge
 # Usage
 Run the GUI Application
 
-(1) Open the main_EDRAD.py file (or the main script you are using).
+(1) Open the file main_EDRAD.py (or your main script), and run it;
 
-(2) Configure important parameters inside the GUI after launching:
+(2) After the GUI appears, upload the required input files:
 
-- Upload input data (.bam files)
+- Upload the input .bam file
 
-- Set parameters: k (number of neighbors), bandwidth, bin size, reference genome path, etc.
+- Upload the reference genome .fa or .fasta file
 
-- Choose segmentation method (Python or R-based)
+- Upload the ground truth file
 
-- Click the "Run" button to start the CNV detection analysis!
+(3) Set important parameters inside the GUI:
 
-(3) Visualize the results directly inside the GUI:
+- k (number of neighbors)
 
-- Metrics like Precision, Sensitivity, and F1-score
+- bandwidth
 
-- Graphical display of detected CNVs
+- bin size 
+- The column size used for segmentation
+
+(4) Choose the segmentation method (Python-based or R-based);
+
+(5) Click the Run Analysis button to start the CNV detection analysis!
+
+(6) After the analysis completes, check the output files:
+
+Results file containing detected CNVs
+
+Evaluation metrics file (Precision, Sensitivity, F1-score)
+
+(7) Visualize the results directly inside the GUI:
+
+Metrics such as Precision, Sensitivity, and F1-score
+
+Graphical display of the detected CNVs
 
 Quick Example
 
