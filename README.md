@@ -1,7 +1,7 @@
-EDRAD-CNV
+# EDRAD-CNV
 EDRAD-CNV: A new approach for Copy Number Variation (CNV) detection from next-generation sequencing data, combining global density and local entropy strategies, with an intuitive Tkinter GUI interface for simplified interaction.
 
-Usage
+# Usage
 Run the GUI Application
 
 (1) Open the main_EDRAD.py file (or the main script you are using).
@@ -28,7 +28,9 @@ python
 Copy
 Edit
 # Open Anaconda prompt or terminal
+```python
 python main_EDRAD.py
+```
 Then interact with the GUI window to upload your files and run detection easily!
 
 Features
