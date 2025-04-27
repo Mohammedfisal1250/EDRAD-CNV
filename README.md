@@ -87,8 +87,6 @@ The real datasets can be obtained in the following 2 ways.
 - clink this link：https://pan.baidu.com/s/1Ja4XH2wZupeAcwc9qhZn8A extraction code：29to
 - [1000 Genomes Project](https://www.internationalgenome.org/)
 
-Your own BAM files prepared for analysis
-
 # Citing EDRAD-CNV
 
 
