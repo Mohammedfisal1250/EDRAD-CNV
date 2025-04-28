@@ -36,8 +36,11 @@ cd /mnt/c/EDRAD-CNV
 
 (5) for the output files must do this before clich on Run Analysis button:
 - CNV Output File = output_file.txt
+
 - P-value Output File = P-value.txt
+
 - Result File ""this is the same CNV Output File for calculating the scores" = output_file.txt
+
 - Score Result File = Score_Result.txt
 
 (6) Click the Run Analysis button to start the CNV detection analysis!
