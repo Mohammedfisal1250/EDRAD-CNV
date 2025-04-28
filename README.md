@@ -39,7 +39,7 @@ cd /mnt/c/EDRAD-CNV
 
 - P-value Output File = P-value.txt
 
-- Result File ""this is the same CNV Output File for calculating the scores" = output_file.txt
+- Result File "This is the same CNV Output File for calculating the scores" = output_file.txt
 
 - Score Result File = Score_Result.txt
 
