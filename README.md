@@ -73,8 +73,8 @@ Then interact with the GUI window to upload your files and run detection again e
 
 # Required Dependencies
 
-1. Linux system
-   
+1. Linux system 
+   - 20.04 - 64-bit
 2. Python 3.12.3            
    - biopython  1.83   
    - combo   0.1.3      
