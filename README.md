@@ -47,12 +47,6 @@ cd /mnt/c/EDRAD-CNV
 
 - Graphical display of the detected CNVs
 
-# Quick Example
-
-Open Anaconda prompt or terminal
-```python
-python main_EDRAD.py
-```
 Then interact with the GUI window to upload your files and run detection easily!
 
 # Features
