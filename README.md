@@ -3,7 +3,7 @@ EDRAD-CNV: A new approach for Copy Number Variation (CNV) detection from next-ge
 
 # Usage
 ### How to Run EDRAD-CNV
-
+(1) There are 2 options:
 #### Option 1: Run from Python Script
 Open the `EDRAD-CNV-Main.py` file and execute it directly using your Python environment.
 
@@ -14,7 +14,7 @@ Alternatively, you can run the pre-built executable version by following these s
 cd /mnt/c/EDRAD-CNV
 ./dist/EDRAD-CNV-Main
 ```
-(2) After the GUI appears, upload the required input files:
+(2) After the GUI appears, as you see in ScreenShont.png upload the required input files:
 
 - Upload the input .bam file
 
