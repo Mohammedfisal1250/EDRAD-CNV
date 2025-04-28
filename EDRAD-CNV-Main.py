@@ -23,12 +23,8 @@ import rpy2.robjects as robjects
 from scipy import stats
 import warnings
 
-# [All your existing functions remain exactly the same...]
-# Define functions here (the same functions from your code)
-
 def run_analysis(bam, ref_path, binSize, outfile, p_value_file, col, k_value, groudtruth, result_file, score_result_file, segmentation_method, bandwidth):
     try:
-    # Your main code here
         def calculate_density_gmm(X, n_components=1):
             gmm = GaussianMixture(n_components=n_components)
             gmm.fit(X)
@@ -495,8 +491,6 @@ def run_analysis(bam, ref_path, binSize, outfile, p_value_file, col, k_value, gr
         print("Output File:", outfile)
         print("P-Value File:", p_value_file)
         print("Column:", col)
-        #print("Dataset File:", dataset_file)
-        #print("Data Filename:", data_filename)
         print("k_value:", k_value)
         print("bandwidth:", bandwidth)
         print("groudtruth_path", groudtruth)
@@ -562,13 +556,7 @@ def run_analysis(bam, ref_path, binSize, outfile, p_value_file, col, k_value, gr
         print("data size=", data.size)
         print("data=", data)
 
-        #data_filename = "19239_edrad_GRCh38.dna_data.csv"
-        #df = pd.DataFrame(data, columns=['RD_Scores'])  # Assuming 'data' is a 2D array with one column
-        #df.to_csv(data_filename, index=False)
 
-        #print(f"Data saved to {data_filename}")
-
-        #outlier_scores = calc_scores(data)
         outlier_scores = calc_scores(data, k_value, bandwidth)
         #outlier_scores = calc_scores(data, method='gmm')
         #outlier_scores = calc_scores(data, method='knn')
@@ -577,16 +565,11 @@ def run_analysis(bam, ref_path, binSize, outfile, p_value_file, col, k_value, gr
 
 
         upper = boxplot(outlier_scores)
-        #upper = Q3 + 0.75 * IQR
         label = label_score(outlier_scores, upper)
         print ("label=",label)
-
         index = outlier_scores > upper
         mode = np.mean(modeList)
         write_data_file(all_chr, all_start, all_end, all_rd, outlier_scores,label,index)
-        #write_dataset_file( all_start,seg_rd,label)
-
-        #lower = boxplot(outlier_scores)
         print("upper=",upper)
 
         CNV_chr, CNV_start, CNV_end, CNV_rd, CNV_type = combining_cnv(all_chr, all_start, all_end, all_rd, outlier_scores, upper,
@@ -679,7 +662,6 @@ def on_run_button_click():
         error_message = f"An error occurred: {str(e)}"
         print(error_message)
         messagebox.showerror("Error", error_message)
-# [I'm omitting them here to save space, but they should stay in your code]
 
 # Create the main window with a modern theme
 root = tk.Tk()
