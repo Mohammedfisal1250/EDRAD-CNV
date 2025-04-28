@@ -9,7 +9,7 @@ Open the `EDRAD-CNV-Main.py` file and execute it directly using your Python envi
 
 #### Option 2: Run as an Executable Program (Linux)
 Alternatively, you can run the pre-built executable version by following these steps:
-
+- This software is available on request.
 ```bash
 cd /mnt/c/EDRAD-CNV
 ./dist/EDRAD-CNV-Main
@@ -88,4 +88,5 @@ The real datasets can be obtained in the following 2 ways.
 
 # Citing EDRAD-CNV
 
-
+# For more details, please contact us via email:
+- mohammedfisal18@gmail.com
