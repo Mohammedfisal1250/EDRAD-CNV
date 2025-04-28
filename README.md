@@ -14,7 +14,7 @@ Alternatively, you can run the pre-built executable version by following these s
 cd /mnt/c/EDRAD-CNV
 ./dist/EDRAD-CNV-Main
 ```
-(2) After the GUI appears, as you see in ScreenShont.png upload the required input files:
+(2) After the GUI appears, as you see in ScreenShoot.png upload the required input files:
 
 - Upload the input .bam file
 
