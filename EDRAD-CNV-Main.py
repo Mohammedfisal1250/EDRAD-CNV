@@ -406,7 +406,6 @@ def run_analysis(bam, ref_path, binSize, outfile, p_value_file, col, k_value, gr
 
         def combining_cnv(seg_chr, seg_start, seg_end, seg_count,outlier_scores, upper, mode):
             index = outlier_scores > upper
-           # index = outlier_scores > 0.85
             print("index=",index)
             CNV_chr = seg_chr[index]
             CNV_start = seg_start[index]
