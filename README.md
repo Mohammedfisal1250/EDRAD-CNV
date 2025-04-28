@@ -32,7 +32,11 @@ cd /mnt/c/EDRAD-CNV
 - The column size used for segmentation
 
 (4) Choose the segmentation method (Python-based or R-based);
-
+(5) for the output files must do this before clich on Run Analysis button:
+- CNV Output File = output_file.txt
+- P-value Output File = P-value.txt
+- Result File ""this is the same CNV Output File for calculating the scores" = output_file.txt
+- Score Result File = Score_Result.txt
 (5) Click the Run Analysis button to start the CNV detection analysis!
 
 (6) After the analysis completes, check the output files:
