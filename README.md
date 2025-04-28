@@ -73,17 +73,16 @@ Then interact with the GUI window to upload your files and run detection again e
 
 # Required Dependencies
 
-1. Python 3.8            
-   - biopython     
-   - combo         
-   - numpy         
-   - pandas        
-   - pysam        
-   - pyod         
-   - rpy2          
-   - scikit-learn  
-   - scipy         
-   - tkinter (comes preinstalled with Python)
+1. Python 3.12.3            
+   - biopython  1.83   
+   - combo   0.1.3      
+   - numpy   1.26.4   
+   - pandas  2.2.2      
+   - pysam   0.22.1              
+   - rpy2    3.5.16       
+   - scikit-learn  1.5.0 
+   - scipy   1.13.1     
+   - tkinter (comes preinstalled with Python)  8.6
 2. R 3.4.4
    - DNAcopy
      
