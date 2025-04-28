@@ -73,7 +73,9 @@ Then interact with the GUI window to upload your files and run detection again e
 
 # Required Dependencies
 
-1. Python 3.12.3            
+1. Linux system
+   
+2. Python 3.12.3            
    - biopython  1.83   
    - combo   0.1.3      
    - numpy   1.26.4   
@@ -83,7 +85,7 @@ Then interact with the GUI window to upload your files and run detection again e
    - scikit-learn  1.5.0 
    - scipy   1.13.1     
    - tkinter (comes preinstalled with Python)  8.6
-2. R 3.4.4
+3. R 3.4.4
    - DNAcopy
      
 # Real Datasets
