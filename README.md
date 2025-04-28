@@ -22,15 +22,15 @@ cd /mnt/c/EDRAD-CNV
 
 - Upload the ground truth file
 
-(3) Set important parameters inside the GUI:
+(3) Set important parameters inside the GUI with default settings:
 
-- k (number of neighbors)
+- k (number of neighbors) = 20
 
-- bandwidth
+- bandwidth = 1
 
-- bin size 
+- bin size = 1000
 
-- The column size used for segmentation
+- The column size used for segmentation = 50
 
 (4) Choose the segmentation method (Python-based or R-based);
 
