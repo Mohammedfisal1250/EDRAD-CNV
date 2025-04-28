@@ -34,7 +34,7 @@ cd /mnt/c/EDRAD-CNV
 
 (4) Choose the segmentation method (Python-based or R-based);
 
-(5) for the output files must do this before clich on Run Analysis button:
+(5) For the output files, you must do this before clicking on the Run Analysis button:
 - CNV Output File = output_file.txt
 
 - P-value Output File = P-value.txt
