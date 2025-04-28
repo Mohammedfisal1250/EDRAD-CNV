@@ -61,7 +61,7 @@ Then interact with the GUI window to upload your files and run detection easily!
 - Beginner-friendly, no command-line skills needed
 
 # GUI Screenshot
-  - See the Screenshot.png
+  - See the ScreenShot.png
 
 # Required Dependencies
 
