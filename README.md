@@ -96,6 +96,6 @@ The real datasets can be obtained in the following 2 ways.
 - [1000 Genomes Project](https://www.internationalgenome.org/)
 
 # Citing EDRAD-CNV
-
+- Our research on **EDRAD-CNV** is currently under review for publication. Once published, the full citation will be provided here. We appreciate your interest and support in this work.
 # For more details, please contact us via email:
 - mohammedfisal18@gmail.com
