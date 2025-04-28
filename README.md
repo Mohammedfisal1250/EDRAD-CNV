@@ -14,7 +14,7 @@ Alternatively, you can run the pre-built executable version by following these s
 cd /mnt/c/EDRAD-CNV
 ./dist/EDRAD-CNV-Main
 ```
-(2) After the GUI appears, as you see in ScreenShoot.png upload the required input files:
+(2) After the GUI appears, as you see in Screenshot.png upload the required input files:
 
 - Upload the input .bam file
 
@@ -29,6 +29,7 @@ cd /mnt/c/EDRAD-CNV
 - bandwidth
 
 - bin size 
+
 - The column size used for segmentation
 
 (4) Choose the segmentation method (Python-based or R-based);
@@ -67,7 +68,7 @@ Then interact with the GUI window to upload your files and run detection easily!
 - Beginner-friendly, no command-line skills needed
 
 # GUI Screenshot
-  - See the ScreenShot.png
+  - See the Screenshot.png
 
 # Required Dependencies
 
