@@ -13,7 +13,7 @@ Alternatively, you can run the pre-built executable version by following these s
 ```bash
 cd /mnt/c/EDRAD-CNV
 ./dist/EDRAD-CNV-Main
-
+```
 (2) After the GUI appears, upload the required input files:
 
 - Upload the input .bam file
