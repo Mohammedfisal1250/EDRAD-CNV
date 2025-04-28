@@ -55,9 +55,7 @@ cd /mnt/c/EDRAD-CNV
 
 - Metrics such as Precision, Sensitivity, and F1-score
 
-- Graphical display of the detected CNVs
-
-Then interact with the GUI window to upload your files and run detection easily!
+Then interact with the GUI window to upload your files and run detection again easily!
 
 # Features
 - Easy upload of BAM files through file dialog
