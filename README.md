@@ -2,13 +2,18 @@
 EDRAD-CNV: A new approach for Copy Number Variation (CNV) detection from next-generation sequencing data, combining global density and local entropy strategies, with an intuitive Tkinter GUI interface for simplified interaction.
 
 # Usage
-Run the GUI Application
+### How to Run EDRAD-CNV
 
-(1) Open the file EDRAD-CNV-Main.py, and run it; or you can run our software as Executive Program using this command on linux 
-```python
-cd /mnt/e/EDRAD-CNV
+#### Option 1: Run from Python Script
+Open the `EDRAD-CNV-Main.py` file and execute it directly using your Python environment.
+
+#### Option 2: Run as an Executable Program (Linux)
+Alternatively, you can run the pre-built executable version by following these steps:
+
+```bash
+cd /mnt/c/EDRAD-CNV
 ./dist/EDRAD-CNV-Main
-```
+
 (2) After the GUI appears, upload the required input files:
 
 - Upload the input .bam file
